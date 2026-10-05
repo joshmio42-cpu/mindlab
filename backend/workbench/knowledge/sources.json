@@ -1,0 +1,2061 @@
+{
+  "version": "1.0.0",
+  "sources": [
+    {
+      "id": "repo-ruiyiw--patient-psi",
+      "title": "ruiyiw/patient-psi",
+      "url": "https://github.com/ruiyiw/patient-psi",
+      "type": "repository",
+      "retrieved_at": "2026-10-04T06:04:25.658044+00:00",
+      "commit": "de72a768e5366d3e94f7d8c711c563fb4a5b4d26",
+      "review_depth": "Root docs/license and profile-storage code excerpts; paper abstract and study description.",
+      "contribution": "Patient cognitive models and conversational styles for mental-health rehearsal.",
+      "limitations": "Full web app with external services; not a drop-in Python agent. Dataset access uses an author request process.",
+      "reuse_status": "LICENSE is MIT; README badge says Apache 2.0. Dataset and third-party case materials need separate review.",
+      "recommendation": "Prioritize architecture study",
+      "next_action": "Clarify conflicting license signals before copying; implement original cases independently.",
+      "local_reference": "github/ruiyiw__patient-psi/",
+      "executed": false,
+      "source_type": "software",
+      "author_or_organization": "ruiyiw",
+      "publication_date": null,
+      "version": "de72a768e5366d3e94f7d8c711c563fb4a5b4d26",
+      "skills": [
+        "research-reference"
+      ],
+      "populations": [
+        "Adults for current MindLab adaptation; source coverage varies"
+      ],
+      "languages": [
+        "English reference; other languages not assessed"
+      ],
+      "settings": [
+        "Educational rehearsal; local scope must be supplied"
+      ],
+      "permissions": {
+        "code": {
+          "status": "unresolved; no import authorized",
+          "evidence": "LICENSE is MIT; README badge says Apache 2.0. Dataset and third-party case materials need separate review."
+        },
+        "publication": {
+          "status": "unresolved; no import authorized",
+          "evidence": "LICENSE is MIT; README badge says Apache 2.0. Dataset and third-party case materials need separate review."
+        },
+        "dataset": {
+          "status": "unresolved; no import authorized",
+          "evidence": "LICENSE is MIT; README badge says Apache 2.0. Dataset and third-party case materials need separate review."
+        },
+        "case_materials": {
+          "status": "unresolved; no import authorized",
+          "evidence": "LICENSE is MIT; README badge says Apache 2.0. Dataset and third-party case materials need separate review."
+        }
+      },
+      "availability": {
+        "checked_on": "2026-10-04",
+        "method": "Primary page opened in this implementation review"
+      },
+      "review_status": "Technical source triage only; professional and cultural review pending",
+      "imported_material": "Bibliographic metadata only; no dataset, code, tools or cases imported",
+      "used_by": [
+        "research-reference-only"
+      ]
+    },
+    {
+      "id": "repo-IzzetYoung--ConsistentMIClientSimulator",
+      "title": "IzzetYoung/ConsistentMIClientSimulator",
+      "url": "https://github.com/IzzetYoung/ConsistentMIClientSimulator",
+      "type": "repository",
+      "retrieved_at": "2026-10-04T06:04:25.662359+00:00",
+      "commit": "5c78af2de8430a4c3067f0c4cdf9973791baa395",
+      "review_depth": "Root documentation and selected client source method/state excerpts; ACL paper abstract.",
+      "contribution": "Explicit client state, action selection, information selection, and dialogue generation.",
+      "limitations": "README directs users to successor. MI-specific modelling assumptions; consistency is not evidence of human validity.",
+      "reuse_status": "No license file found in audited tree.",
+      "recommendation": "Prioritize design reference",
+      "next_action": "Use conceptual separation as a reference; obtain permission before reusing code/data.",
+      "local_reference": "github/IzzetYoung__ConsistentMIClientSimulator/",
+      "executed": false,
+      "source_type": "software",
+      "author_or_organization": "IzzetYoung",
+      "publication_date": null,
+      "version": "5c78af2de8430a4c3067f0c4cdf9973791baa395",
+      "skills": [
+        "research-reference"
+      ],
+      "populations": [
+        "Adults for current MindLab adaptation; source coverage varies"
+      ],
+      "languages": [
+        "English reference; other languages not assessed"
+      ],
+      "settings": [
+        "Educational rehearsal; local scope must be supplied"
+      ],
+      "permissions": {
+        "code": {
+          "status": "unresolved; no import authorized",
+          "evidence": "No license file found in audited tree."
+        },
+        "publication": {
+          "status": "unresolved; no import authorized",
+          "evidence": "No license file found in audited tree."
+        },
+        "dataset": {
+          "status": "unresolved; no import authorized",
+          "evidence": "No license file found in audited tree."
+        },
+        "case_materials": {
+          "status": "unresolved; no import authorized",
+          "evidence": "No license file found in audited tree."
+        }
+      },
+      "availability": {
+        "checked_on": "2026-10-04",
+        "method": "Primary page opened in this implementation review"
+      },
+      "review_status": "Technical source triage only; professional and cultural review pending",
+      "imported_material": "Bibliographic metadata only; no dataset, code, tools or cases imported",
+      "used_by": [
+        "research-reference-only"
+      ]
+    },
+    {
+      "id": "repo-dek924--PatientSim",
+      "title": "dek924/PatientSim",
+      "url": "https://github.com/dek924/PatientSim",
+      "type": "repository",
+      "retrieved_at": "2026-10-04T06:04:25.662359+00:00",
+      "commit": "9c262e692bd94305d922654d05bd1741c4d97433",
+      "review_depth": "Root docs, patient agent excerpts, and full data preparation instructions; evaluation prompt retained.",
+      "contribution": "Patient-profile consistency and controllable communication attributes in medical encounters.",
+      "limitations": "General medical setting; dataset instructions say prepared data is under review for PhysioNet release.",
+      "reuse_status": "No code license found. MIMIC source datasets require credentialing and data-use agreements.",
+      "recommendation": "Evaluation design reference",
+      "next_action": "Do not download clinical data for this prototype; use original fictional profiles.",
+      "local_reference": "github/dek924__PatientSim/",
+      "executed": false,
+      "source_type": "software",
+      "author_or_organization": "dek924",
+      "publication_date": null,
+      "version": "9c262e692bd94305d922654d05bd1741c4d97433",
+      "skills": [
+        "research-reference"
+      ],
+      "populations": [
+        "Adults for current MindLab adaptation; source coverage varies"
+      ],
+      "languages": [
+        "English reference; other languages not assessed"
+      ],
+      "settings": [
+        "Educational rehearsal; local scope must be supplied"
+      ],
+      "permissions": {
+        "code": {
+          "status": "unresolved; no import authorized",
+          "evidence": "No code license found. MIMIC source datasets require credentialing and data-use agreements."
+        },
+        "publication": {
+          "status": "unresolved; no import authorized",
+          "evidence": "No code license found. MIMIC source datasets require credentialing and data-use agreements."
+        },
+        "dataset": {
+          "status": "unresolved; no import authorized",
+          "evidence": "No code license found. MIMIC source datasets require credentialing and data-use agreements."
+        },
+        "case_materials": {
+          "status": "unresolved; no import authorized",
+          "evidence": "No code license found. MIMIC source datasets require credentialing and data-use agreements."
+        }
+      },
+      "availability": {
+        "checked_on": "2026-10-04",
+        "method": "Prior research package audit; not rechecked in implementation"
+      },
+      "review_status": "Technical source triage only; professional and cultural review pending",
+      "imported_material": "Bibliographic metadata only; no dataset, code, tools or cases imported",
+      "used_by": [
+        "research-reference-only"
+      ]
+    },
+    {
+      "id": "repo-ljm565--patientsim-pkg",
+      "title": "ljm565/patientsim-pkg",
+      "url": "https://github.com/ljm565/patientsim-pkg",
+      "type": "repository",
+      "retrieved_at": "2026-10-04T06:04:25.662359+00:00",
+      "commit": "898df85ed4e55d12fc7c6b033d39512d4b9d0448",
+      "review_depth": "Root docs/license/manifest and selected patient source method signatures.",
+      "contribution": "Separate patient simulation package with model and prompt abstractions.",
+      "limitations": "Different project from dek924/PatientSim. Runtime compatibility and case validity untested.",
+      "reuse_status": "LICENSE contains Apache 2.0 notice; GitHub metadata returned NOASSERTION.",
+      "recommendation": "Optional technical spike later",
+      "next_action": "Compare with a small native implementation before adding a dependency.",
+      "local_reference": "github/ljm565__patientsim-pkg/",
+      "executed": false,
+      "source_type": "software",
+      "author_or_organization": "ljm565",
+      "publication_date": null,
+      "version": "898df85ed4e55d12fc7c6b033d39512d4b9d0448",
+      "skills": [
+        "research-reference"
+      ],
+      "populations": [
+        "Adults for current MindLab adaptation; source coverage varies"
+      ],
+      "languages": [
+        "English reference; other languages not assessed"
+      ],
+      "settings": [
+        "Educational rehearsal; local scope must be supplied"
+      ],
+      "permissions": {
+        "code": {
+          "status": "unresolved; no import authorized",
+          "evidence": "LICENSE contains Apache 2.0 notice; GitHub metadata returned NOASSERTION."
+        },
+        "publication": {
+          "status": "unresolved; no import authorized",
+          "evidence": "LICENSE contains Apache 2.0 notice; GitHub metadata returned NOASSERTION."
+        },
+        "dataset": {
+          "status": "unresolved; no import authorized",
+          "evidence": "LICENSE contains Apache 2.0 notice; GitHub metadata returned NOASSERTION."
+        },
+        "case_materials": {
+          "status": "unresolved; no import authorized",
+          "evidence": "LICENSE contains Apache 2.0 notice; GitHub metadata returned NOASSERTION."
+        }
+      },
+      "availability": {
+        "checked_on": "2026-10-04",
+        "method": "Prior research package audit; not rechecked in implementation"
+      },
+      "review_status": "Technical source triage only; professional and cultural review pending",
+      "imported_material": "Bibliographic metadata only; no dataset, code, tools or cases imported",
+      "used_by": [
+        "research-reference-only"
+      ]
+    },
+    {
+      "id": "repo-Syx1030--CARE-Bench",
+      "title": "Syx1030/CARE-Bench",
+      "url": "https://github.com/Syx1030/CARE-Bench",
+      "type": "repository",
+      "retrieved_at": "2026-10-04T06:04:28.089418+00:00",
+      "commit": "0535dc0964430c902102af2c2f8647a15094cb82",
+      "review_depth": "Repository tree and root documentation; author paper discovery.",
+      "contribution": "Counseling profiles and principles for evaluation.",
+      "limitations": "Limited documentation and resource files; not a full learner application. Distinct from other CARE-Bench projects.",
+      "reuse_status": "No license file found in audited tree.",
+      "recommendation": "Reference only pending permissions",
+      "next_action": "Inspect annotation definitions and seek permission before importing materials.",
+      "local_reference": "github/Syx1030__CARE-Bench/",
+      "executed": false,
+      "source_type": "software",
+      "author_or_organization": "Syx1030",
+      "publication_date": null,
+      "version": "0535dc0964430c902102af2c2f8647a15094cb82",
+      "skills": [
+        "research-reference"
+      ],
+      "populations": [
+        "Adults for current MindLab adaptation; source coverage varies"
+      ],
+      "languages": [
+        "English reference; other languages not assessed"
+      ],
+      "settings": [
+        "Educational rehearsal; local scope must be supplied"
+      ],
+      "permissions": {
+        "code": {
+          "status": "unresolved; no import authorized",
+          "evidence": "No license file found in audited tree."
+        },
+        "publication": {
+          "status": "unresolved; no import authorized",
+          "evidence": "No license file found in audited tree."
+        },
+        "dataset": {
+          "status": "unresolved; no import authorized",
+          "evidence": "No license file found in audited tree."
+        },
+        "case_materials": {
+          "status": "unresolved; no import authorized",
+          "evidence": "No license file found in audited tree."
+        }
+      },
+      "availability": {
+        "checked_on": "2026-10-04",
+        "method": "Prior research package audit; not rechecked in implementation"
+      },
+      "review_status": "Technical source triage only; professional and cultural review pending",
+      "imported_material": "Bibliographic metadata only; no dataset, code, tools or cases imported",
+      "used_by": [
+        "research-reference-only"
+      ]
+    },
+    {
+      "id": "repo-uccollab--AnnoMI",
+      "title": "uccollab/AnnoMI",
+      "url": "https://github.com/uccollab/AnnoMI",
+      "type": "repository",
+      "retrieved_at": "2026-10-04T06:04:28.376003+00:00",
+      "commit": "42936645ec3857a9c84ab296a36a3c34b779ef49",
+      "review_depth": "Author repository README and file tree; publisher follow-up blocked with HTTP 429.",
+      "contribution": "133 annotated MI demonstration conversations with counselor/client utterance labels.",
+      "limitations": "Demonstration videos do not represent ordinary clinical populations. CSV data was not bulk downloaded.",
+      "reuse_status": "No explicit license file in author repository; downstream distribution/training terms unresolved.",
+      "recommendation": "Candidate evaluation data after permission review",
+      "next_action": "Clarify rights, then hold out complete dialogues and topics for evaluation.",
+      "local_reference": "github/uccollab__AnnoMI/",
+      "executed": false,
+      "source_type": "software",
+      "author_or_organization": "uccollab",
+      "publication_date": null,
+      "version": "42936645ec3857a9c84ab296a36a3c34b779ef49",
+      "skills": [
+        "evaluation"
+      ],
+      "populations": [
+        "Adults for current MindLab adaptation; source coverage varies"
+      ],
+      "languages": [
+        "English reference; other languages not assessed"
+      ],
+      "settings": [
+        "Educational rehearsal; local scope must be supplied"
+      ],
+      "permissions": {
+        "code": {
+          "status": "unresolved; no import authorized",
+          "evidence": "No explicit license file in author repository; downstream distribution/training terms unresolved."
+        },
+        "publication": {
+          "status": "unresolved; no import authorized",
+          "evidence": "No explicit license file in author repository; downstream distribution/training terms unresolved."
+        },
+        "dataset": {
+          "status": "unresolved; no import authorized",
+          "evidence": "No explicit license file in author repository; downstream distribution/training terms unresolved."
+        },
+        "case_materials": {
+          "status": "unresolved; no import authorized",
+          "evidence": "No explicit license file in author repository; downstream distribution/training terms unresolved."
+        }
+      },
+      "availability": {
+        "checked_on": "2026-10-04",
+        "method": "Primary page opened in this implementation review"
+      },
+      "review_status": "Technical source triage only; professional and cultural review pending",
+      "imported_material": "Bibliographic metadata only; no dataset, code, tools or cases imported",
+      "used_by": [
+        "research-reference-only"
+      ]
+    },
+    {
+      "id": "repo-igembitsky--virtual-standardized-patient",
+      "title": "igembitsky/virtual-standardized-patient",
+      "url": "https://github.com/igembitsky/virtual-standardized-patient",
+      "type": "repository",
+      "retrieved_at": "2026-10-04T06:04:28.796472+00:00",
+      "commit": "2f3f12187118e5692ba56a8c1b336802ea0a4065",
+      "review_depth": "Root docs/license, case-license file and fidelity-check implementation.",
+      "contribution": "Local medical simulation app with a case fidelity checking approach.",
+      "limitations": "Per-case provenance still needs checking. Fidelity script relies on original sources absent from repo and a Claude judge.",
+      "reuse_status": "MIT program; case license file declares CC BY adaptations with per-case attribution requirements.",
+      "recommendation": "Inspect provenance and fidelity patterns",
+      "next_action": "Borrow the provenance-check concept; do not claim its judge establishes case truth.",
+      "local_reference": "github/igembitsky__virtual-standardized-patient/",
+      "executed": false,
+      "source_type": "software",
+      "author_or_organization": "igembitsky",
+      "publication_date": null,
+      "version": "2f3f12187118e5692ba56a8c1b336802ea0a4065",
+      "skills": [
+        "research-reference"
+      ],
+      "populations": [
+        "Adults for current MindLab adaptation; source coverage varies"
+      ],
+      "languages": [
+        "English reference; other languages not assessed"
+      ],
+      "settings": [
+        "Educational rehearsal; local scope must be supplied"
+      ],
+      "permissions": {
+        "code": {
+          "status": "unresolved; no import authorized",
+          "evidence": "MIT program; case license file declares CC BY adaptations with per-case attribution requirements."
+        },
+        "publication": {
+          "status": "unresolved; no import authorized",
+          "evidence": "MIT program; case license file declares CC BY adaptations with per-case attribution requirements."
+        },
+        "dataset": {
+          "status": "unresolved; no import authorized",
+          "evidence": "MIT program; case license file declares CC BY adaptations with per-case attribution requirements."
+        },
+        "case_materials": {
+          "status": "unresolved; no import authorized",
+          "evidence": "MIT program; case license file declares CC BY adaptations with per-case attribution requirements."
+        }
+      },
+      "availability": {
+        "checked_on": "2026-10-04",
+        "method": "Prior research package audit; not rechecked in implementation"
+      },
+      "review_status": "Technical source triage only; professional and cultural review pending",
+      "imported_material": "Bibliographic metadata only; no dataset, code, tools or cases imported",
+      "used_by": [
+        "research-reference-only"
+      ]
+    },
+    {
+      "id": "repo-qiuhuachuan--PsyCLIENT",
+      "title": "qiuhuachuan/PsyCLIENT",
+      "url": "https://github.com/qiuhuachuan/PsyCLIENT",
+      "type": "repository",
+      "retrieved_at": "2026-10-04T06:06:45.855149+00:00",
+      "commit": "67638c8603ae76fee99690e138e128ed6cb60d47",
+      "review_depth": "Entire repository tree and root README/license; paper abstract and HTML discovery.",
+      "contribution": "Research on client conversational trajectories.",
+      "limitations": "Only three files and minimal README at audited commit; no usable simulator/data bundle found.",
+      "reuse_status": "Repository has CC0 license; paper and unreleased data have separate terms.",
+      "recommendation": "Paper reference; repository not ready",
+      "next_action": "Track release manually if needed; do not make it an implementation dependency.",
+      "local_reference": "github/qiuhuachuan__PsyCLIENT/",
+      "executed": false,
+      "source_type": "software",
+      "author_or_organization": "qiuhuachuan",
+      "publication_date": null,
+      "version": "67638c8603ae76fee99690e138e128ed6cb60d47",
+      "skills": [
+        "research-reference"
+      ],
+      "populations": [
+        "Adults for current MindLab adaptation; source coverage varies"
+      ],
+      "languages": [
+        "English reference; other languages not assessed"
+      ],
+      "settings": [
+        "Educational rehearsal; local scope must be supplied"
+      ],
+      "permissions": {
+        "code": {
+          "status": "unresolved; no import authorized",
+          "evidence": "Repository has CC0 license; paper and unreleased data have separate terms."
+        },
+        "publication": {
+          "status": "unresolved; no import authorized",
+          "evidence": "Repository has CC0 license; paper and unreleased data have separate terms."
+        },
+        "dataset": {
+          "status": "unresolved; no import authorized",
+          "evidence": "Repository has CC0 license; paper and unreleased data have separate terms."
+        },
+        "case_materials": {
+          "status": "unresolved; no import authorized",
+          "evidence": "Repository has CC0 license; paper and unreleased data have separate terms."
+        }
+      },
+      "availability": {
+        "checked_on": "2026-10-04",
+        "method": "Prior research package audit; not rechecked in implementation"
+      },
+      "review_status": "Technical source triage only; professional and cultural review pending",
+      "imported_material": "Bibliographic metadata only; no dataset, code, tools or cases imported",
+      "used_by": [
+        "research-reference-only"
+      ]
+    },
+    {
+      "id": "repo-IzzetYoung--MICounselorAgent",
+      "title": "IzzetYoung/MICounselorAgent",
+      "url": "https://github.com/IzzetYoung/MICounselorAgent",
+      "type": "repository",
+      "retrieved_at": "2026-10-04T06:06:45.855149+00:00",
+      "commit": "831954a206865eed6ffadd140c3bb34316d4b24a",
+      "review_depth": "Repository tree/root materials and client source retrieval; limited implementation inspection.",
+      "contribution": "Successor linked by the consistent MI simulator.",
+      "limitations": "Shared lineage with the original simulator; do not count it as independent validation.",
+      "reuse_status": "No license file found in audited tree.",
+      "recommendation": "Secondary reference",
+      "next_action": "Assess only if MI scenarios become a priority and permissions are resolved.",
+      "local_reference": "github/IzzetYoung__MICounselorAgent/",
+      "executed": false,
+      "source_type": "software",
+      "author_or_organization": "IzzetYoung",
+      "publication_date": null,
+      "version": "831954a206865eed6ffadd140c3bb34316d4b24a",
+      "skills": [
+        "research-reference"
+      ],
+      "populations": [
+        "Adults for current MindLab adaptation; source coverage varies"
+      ],
+      "languages": [
+        "English reference; other languages not assessed"
+      ],
+      "settings": [
+        "Educational rehearsal; local scope must be supplied"
+      ],
+      "permissions": {
+        "code": {
+          "status": "unresolved; no import authorized",
+          "evidence": "No license file found in audited tree."
+        },
+        "publication": {
+          "status": "unresolved; no import authorized",
+          "evidence": "No license file found in audited tree."
+        },
+        "dataset": {
+          "status": "unresolved; no import authorized",
+          "evidence": "No license file found in audited tree."
+        },
+        "case_materials": {
+          "status": "unresolved; no import authorized",
+          "evidence": "No license file found in audited tree."
+        }
+      },
+      "availability": {
+        "checked_on": "2026-10-04",
+        "method": "Prior research package audit; not rechecked in implementation"
+      },
+      "review_status": "Technical source triage only; professional and cultural review pending",
+      "imported_material": "Bibliographic metadata only; no dataset, code, tools or cases imported",
+      "used_by": [
+        "research-reference-only"
+      ]
+    },
+    {
+      "id": "repo-llm-eval-mental-health--CounselBench",
+      "title": "llm-eval-mental-health/CounselBench",
+      "url": "https://github.com/llm-eval-mental-health/CounselBench",
+      "type": "repository",
+      "retrieved_at": "2026-10-04T06:06:45.855149+00:00",
+      "commit": "a33c4e5e0dc221c4a3caa1abc9e50364f9eb8c39",
+      "review_depth": "Root documentation/tree and Eval dataset card; not a full paper reproduction.",
+      "contribution": "Professional assessment and LLM-judge comparison for counseling responses.",
+      "limitations": "Dataset license does not automatically cover repository code or other linked datasets. Not a client simulator.",
+      "reuse_status": "No repository license found. Linked CounselBench-Eval dataset lists CC BY-NC-ND 4.0.",
+      "recommendation": "Prioritize evaluation methodology",
+      "next_action": "Create an original professional-rated test set; resolve terms before using external data.",
+      "local_reference": "github/llm-eval-mental-health__CounselBench/",
+      "executed": false,
+      "source_type": "software",
+      "author_or_organization": "llm-eval-mental-health",
+      "publication_date": null,
+      "version": "a33c4e5e0dc221c4a3caa1abc9e50364f9eb8c39",
+      "skills": [
+        "evaluation"
+      ],
+      "populations": [
+        "Adults for current MindLab adaptation; source coverage varies"
+      ],
+      "languages": [
+        "English reference; other languages not assessed"
+      ],
+      "settings": [
+        "Educational rehearsal; local scope must be supplied"
+      ],
+      "permissions": {
+        "code": {
+          "status": "unresolved; no import authorized",
+          "evidence": "No repository license found. Linked CounselBench-Eval dataset lists CC BY-NC-ND 4.0."
+        },
+        "publication": {
+          "status": "unresolved; no import authorized",
+          "evidence": "No repository license found. Linked CounselBench-Eval dataset lists CC BY-NC-ND 4.0."
+        },
+        "dataset": {
+          "status": "unresolved; no import authorized",
+          "evidence": "No repository license found. Linked CounselBench-Eval dataset lists CC BY-NC-ND 4.0."
+        },
+        "case_materials": {
+          "status": "unresolved; no import authorized",
+          "evidence": "No repository license found. Linked CounselBench-Eval dataset lists CC BY-NC-ND 4.0."
+        }
+      },
+      "availability": {
+        "checked_on": "2026-10-04",
+        "method": "Prior research package audit; not rechecked in implementation"
+      },
+      "review_status": "Technical source triage only; professional and cultural review pending",
+      "imported_material": "Bibliographic metadata only; no dataset, code, tools or cases imported",
+      "used_by": [
+        "research-reference-only"
+      ]
+    },
+    {
+      "id": "repo-mianzhang--CBT-Bench",
+      "title": "mianzhang/CBT-Bench",
+      "url": "https://github.com/mianzhang/CBT-Bench",
+      "type": "repository",
+      "retrieved_at": "2026-10-04T06:06:47.935529+00:00",
+      "commit": "0fb262c7f5c51b8641be43408c63a5fa3622c90f",
+      "review_depth": "Repository tree and root README; NAACL paper page; dataset access incomplete.",
+      "contribution": "CBT knowledge, formulation, and response evaluation.",
+      "limitations": "Thin root documentation; benchmark scores are not professional competence scores.",
+      "reuse_status": "No repository license found; linked dataset terms not verified.",
+      "recommendation": "Task design reference",
+      "next_action": "Use task distinctions conceptually, then review full materials if CBT module is selected.",
+      "local_reference": "github/mianzhang__CBT-Bench/",
+      "executed": false,
+      "source_type": "software",
+      "author_or_organization": "mianzhang",
+      "publication_date": null,
+      "version": "0fb262c7f5c51b8641be43408c63a5fa3622c90f",
+      "skills": [
+        "evaluation"
+      ],
+      "populations": [
+        "Adults for current MindLab adaptation; source coverage varies"
+      ],
+      "languages": [
+        "English reference; other languages not assessed"
+      ],
+      "settings": [
+        "Educational rehearsal; local scope must be supplied"
+      ],
+      "permissions": {
+        "code": {
+          "status": "unresolved; no import authorized",
+          "evidence": "No repository license found; linked dataset terms not verified."
+        },
+        "publication": {
+          "status": "unresolved; no import authorized",
+          "evidence": "No repository license found; linked dataset terms not verified."
+        },
+        "dataset": {
+          "status": "unresolved; no import authorized",
+          "evidence": "No repository license found; linked dataset terms not verified."
+        },
+        "case_materials": {
+          "status": "unresolved; no import authorized",
+          "evidence": "No repository license found; linked dataset terms not verified."
+        }
+      },
+      "availability": {
+        "checked_on": "2026-10-04",
+        "method": "Primary page opened in this implementation review"
+      },
+      "review_status": "Technical source triage only; professional and cultural review pending",
+      "imported_material": "Bibliographic metadata only; no dataset, code, tools or cases imported",
+      "used_by": [
+        "research-reference-only"
+      ]
+    },
+    {
+      "id": "repo-douglasrizzo--catsim",
+      "title": "douglasrizzo/catsim",
+      "url": "https://github.com/douglasrizzo/catsim",
+      "type": "repository",
+      "retrieved_at": "2026-10-04T06:06:48.469206+00:00",
+      "commit": "7e6caae84a8e7779422ba9338cfe2e2335185b28",
+      "review_depth": "Root license/docs/manifest and SimulationRunner source; IRT file retrieved, not fully reviewed.",
+      "contribution": "Python computerized adaptive testing and simulated examinee responses.",
+      "limitations": "Requires valid modelling assumptions and suitable item parameters; does not validate psychological test use.",
+      "reuse_status": "BSD 3-Clause verified in license/manifest.",
+      "recommendation": "Best candidate for measurement lab spike",
+      "next_action": "Use synthetic item banks and pin version; verify numerical recovery and dependency compatibility.",
+      "local_reference": "github/douglasrizzo__catsim/",
+      "executed": false,
+      "source_type": "software",
+      "author_or_organization": "douglasrizzo",
+      "publication_date": null,
+      "version": "7e6caae84a8e7779422ba9338cfe2e2335185b28",
+      "skills": [
+        "research-reference"
+      ],
+      "populations": [
+        "Adults for current MindLab adaptation; source coverage varies"
+      ],
+      "languages": [
+        "English reference; other languages not assessed"
+      ],
+      "settings": [
+        "Educational rehearsal; local scope must be supplied"
+      ],
+      "permissions": {
+        "code": {
+          "status": "BSD 3-Clause per research audit; not adopted",
+          "evidence": "https://github.com/douglasrizzo/catsim/blob/master/LICENSE"
+        },
+        "publication": {
+          "status": "unresolved; no import authorized",
+          "evidence": "BSD 3-Clause verified in license/manifest."
+        },
+        "dataset": {
+          "status": "unresolved; no import authorized",
+          "evidence": "BSD 3-Clause verified in license/manifest."
+        },
+        "case_materials": {
+          "status": "unresolved; no import authorized",
+          "evidence": "BSD 3-Clause verified in license/manifest."
+        }
+      },
+      "availability": {
+        "checked_on": "2026-10-04",
+        "method": "Primary page opened in this implementation review"
+      },
+      "review_status": "Technical source triage only; professional and cultural review pending",
+      "imported_material": "Bibliographic metadata only; no dataset, code, tools or cases imported",
+      "used_by": [
+        "research-reference-only"
+      ]
+    },
+    {
+      "id": "repo-philchalmers--mirt",
+      "title": "philchalmers/mirt",
+      "url": "https://github.com/philchalmers/mirt",
+      "type": "repository",
+      "retrieved_at": "2026-10-04T06:06:49.356838+00:00",
+      "commit": "5213f2dc0e6da866fbf09da0ffe6fd021a047253",
+      "review_depth": "Root documentation and package DESCRIPTION.",
+      "contribution": "R item response theory, multidimensional models, and differential functioning analysis.",
+      "limitations": "R runtime and distribution considerations; not a Python drop-in or conversational simulator.",
+      "reuse_status": "DESCRIPTION and README specify GPL version 3 or later.",
+      "recommendation": "Advanced psychometrics reference",
+      "next_action": "Use documentation for methods; consider a separate analysis workflow after integration review.",
+      "local_reference": "github/philchalmers__mirt/",
+      "executed": false,
+      "source_type": "software",
+      "author_or_organization": "philchalmers",
+      "publication_date": null,
+      "version": "5213f2dc0e6da866fbf09da0ffe6fd021a047253",
+      "skills": [
+        "research-reference"
+      ],
+      "populations": [
+        "Adults for current MindLab adaptation; source coverage varies"
+      ],
+      "languages": [
+        "English reference; other languages not assessed"
+      ],
+      "settings": [
+        "Educational rehearsal; local scope must be supplied"
+      ],
+      "permissions": {
+        "code": {
+          "status": "unresolved; no import authorized",
+          "evidence": "DESCRIPTION and README specify GPL version 3 or later."
+        },
+        "publication": {
+          "status": "unresolved; no import authorized",
+          "evidence": "DESCRIPTION and README specify GPL version 3 or later."
+        },
+        "dataset": {
+          "status": "unresolved; no import authorized",
+          "evidence": "DESCRIPTION and README specify GPL version 3 or later."
+        },
+        "case_materials": {
+          "status": "unresolved; no import authorized",
+          "evidence": "DESCRIPTION and README specify GPL version 3 or later."
+        }
+      },
+      "availability": {
+        "checked_on": "2026-10-04",
+        "method": "Prior research package audit; not rechecked in implementation"
+      },
+      "review_status": "Technical source triage only; professional and cultural review pending",
+      "imported_material": "Bibliographic metadata only; no dataset, code, tools or cases imported",
+      "used_by": [
+        "research-reference-only"
+      ]
+    },
+    {
+      "id": "who-equip",
+      "title": "WHO and UNICEF EQUIP",
+      "url": "https://www.who.int/teams/mental-health-and-substance-use/treatment-care/equip-ensuring-quality-in-psychological-support/",
+      "type": "official programme",
+      "checked_on": "2026-10-04",
+      "review_depth": "Programme page reviewed",
+      "contribution": "Competency-based foundational helping skills and supervision.",
+      "limitations": "Not a complete licensed-professional curriculum or AI scoring validation.",
+      "reuse_status": "Reference; review permission for reproducing tools.",
+      "source_type": "professional guidance",
+      "author_or_organization": "WHO and UNICEF",
+      "publication_date": null,
+      "version": "Unspecified",
+      "skills": [
+        "invite",
+        "neutral"
+      ],
+      "populations": [
+        "Adults for current MindLab adaptation; source coverage varies"
+      ],
+      "languages": [
+        "English reference; other languages not assessed"
+      ],
+      "settings": [
+        "Educational rehearsal; local scope must be supplied"
+      ],
+      "permissions": {
+        "code": {
+          "status": "unresolved; no import authorized",
+          "evidence": "Reference; review permission for reproducing tools."
+        },
+        "publication": {
+          "status": "unresolved; no import authorized",
+          "evidence": "Reference; review permission for reproducing tools."
+        },
+        "dataset": {
+          "status": "unresolved; no import authorized",
+          "evidence": "Reference; review permission for reproducing tools."
+        },
+        "case_materials": {
+          "status": "unresolved; no import authorized",
+          "evidence": "Reference; review permission for reproducing tools."
+        }
+      },
+      "availability": {
+        "checked_on": "2026-10-04",
+        "method": "Prior research package audit; not rechecked in implementation"
+      },
+      "review_status": "Technical source triage only; professional and cultural review pending",
+      "imported_material": "Bibliographic metadata only; no dataset, code, tools or cases imported",
+      "used_by": [
+        "research-reference-only"
+      ]
+    },
+    {
+      "id": "who-manual",
+      "title": "Foundational helping skills training manual",
+      "url": "https://www.who.int/publications/i/item/9789240105935",
+      "type": "official manual",
+      "checked_on": "2026-10-04",
+      "review_depth": "Publication metadata and overview reviewed",
+      "contribution": "2025 modular trainer/supervisor resource for adult helping skills.",
+      "limitations": "Full manual and copyright page not verified.",
+      "reuse_status": "Do not copy/adapt training content until terms reviewed.",
+      "source_type": "professional guidance",
+      "author_or_organization": "WHO and UNICEF",
+      "publication_date": "2025-07-10",
+      "version": "Unspecified",
+      "skills": [
+        "invite",
+        "neutral"
+      ],
+      "populations": [
+        "Adults for current MindLab adaptation; source coverage varies"
+      ],
+      "languages": [
+        "English reference; other languages not assessed"
+      ],
+      "settings": [
+        "Educational rehearsal; local scope must be supplied"
+      ],
+      "permissions": {
+        "code": {
+          "status": "unresolved; no import authorized",
+          "evidence": "Do not copy/adapt training content until terms reviewed."
+        },
+        "publication": {
+          "status": "unresolved; no import authorized",
+          "evidence": "Do not copy/adapt training content until terms reviewed."
+        },
+        "dataset": {
+          "status": "unresolved; no import authorized",
+          "evidence": "Do not copy/adapt training content until terms reviewed."
+        },
+        "case_materials": {
+          "status": "unresolved; no import authorized",
+          "evidence": "Do not copy/adapt training content until terms reviewed."
+        }
+      },
+      "availability": {
+        "checked_on": "2026-10-04",
+        "method": "Primary page opened in this implementation review"
+      },
+      "review_status": "Technical source triage only; professional and cultural review pending",
+      "imported_material": "Bibliographic metadata only; no dataset, code, tools or cases imported",
+      "used_by": [
+        "encounter-debrief",
+        "assessment-preparation",
+        "everyday-change"
+      ]
+    },
+    {
+      "id": "who-compendium",
+      "title": "WHO EQUIP competency assessment tools compendium",
+      "url": "https://www.who.int/publications/i/item/9789240121041",
+      "type": "official resource",
+      "checked_on": "2026-10-04",
+      "review_depth": "Publication page reviewed",
+      "contribution": "Further assessment-tool discovery for professional review.",
+      "limitations": "Not a verified license to embed tools; detailed instrument review pending.",
+      "reuse_status": "Permission review pending.",
+      "source_type": "professional guidance",
+      "author_or_organization": "Not yet catalogued; see primary source",
+      "publication_date": null,
+      "version": "Unspecified",
+      "skills": [
+        "research-reference"
+      ],
+      "populations": [
+        "Adults for current MindLab adaptation; source coverage varies"
+      ],
+      "languages": [
+        "English reference; other languages not assessed"
+      ],
+      "settings": [
+        "Educational rehearsal; local scope must be supplied"
+      ],
+      "permissions": {
+        "code": {
+          "status": "unresolved; no import authorized",
+          "evidence": "Permission review pending."
+        },
+        "publication": {
+          "status": "unresolved; no import authorized",
+          "evidence": "Permission review pending."
+        },
+        "dataset": {
+          "status": "unresolved; no import authorized",
+          "evidence": "Permission review pending."
+        },
+        "case_materials": {
+          "status": "unresolved; no import authorized",
+          "evidence": "Permission review pending."
+        }
+      },
+      "availability": {
+        "checked_on": "2026-10-04",
+        "method": "Prior research package audit; not rechecked in implementation"
+      },
+      "review_status": "Technical source triage only; professional and cultural review pending",
+      "imported_material": "Bibliographic metadata only; no dataset, code, tools or cases imported",
+      "used_by": [
+        "research-reference-only"
+      ]
+    },
+    {
+      "id": "itc-use",
+      "title": "ITC Guidelines on Test Use",
+      "url": "https://www.intestcom.org/page/15",
+      "type": "professional guidance",
+      "checked_on": "2026-10-04",
+      "review_depth": "Official guidance page reviewed",
+      "contribution": "Ethical and competent test use, context and interpretation.",
+      "limitations": "Not jurisdiction-specific legal scope or validation of MindLab.",
+      "reuse_status": "Cite guidance; review terms before reproducing.",
+      "source_type": "professional guidance",
+      "author_or_organization": "International Test Commission",
+      "publication_date": "2000",
+      "version": "Unspecified",
+      "skills": [
+        "explain",
+        "uncertainty",
+        "observe"
+      ],
+      "populations": [
+        "Adults for current MindLab adaptation; source coverage varies"
+      ],
+      "languages": [
+        "English reference; other languages not assessed"
+      ],
+      "settings": [
+        "Educational rehearsal; local scope must be supplied"
+      ],
+      "permissions": {
+        "code": {
+          "status": "unresolved; no import authorized",
+          "evidence": "Cite guidance; review terms before reproducing."
+        },
+        "publication": {
+          "status": "unresolved; no import authorized",
+          "evidence": "Cite guidance; review terms before reproducing."
+        },
+        "dataset": {
+          "status": "unresolved; no import authorized",
+          "evidence": "Cite guidance; review terms before reproducing."
+        },
+        "case_materials": {
+          "status": "unresolved; no import authorized",
+          "evidence": "Cite guidance; review terms before reproducing."
+        }
+      },
+      "availability": {
+        "checked_on": "2026-10-04",
+        "method": "Primary page opened in this implementation review"
+      },
+      "review_status": "Technical source triage only; professional and cultural review pending",
+      "imported_material": "Bibliographic metadata only; no dataset, code, tools or cases imported",
+      "used_by": [
+        "encounter-debrief",
+        "assessment-preparation",
+        "score-understanding"
+      ]
+    },
+    {
+      "id": "testing-standards",
+      "title": "Standards for Educational and Psychological Testing",
+      "url": "https://www.testingstandards.net/open-access-files.html",
+      "type": "professional standards",
+      "checked_on": "2026-10-04",
+      "review_depth": "Official open-access page reviewed",
+      "contribution": "2014 standards available for validity, reliability and fairness reference.",
+      "limitations": "Not full chapter-by-chapter review; free access does not remove copyright.",
+      "reuse_status": "Reference official copy; no blanket republication permission inferred.",
+      "source_type": "professional guidance",
+      "author_or_organization": "AERA, APA and NCME",
+      "publication_date": "2014",
+      "version": "Unspecified",
+      "skills": [
+        "measurement",
+        "uncertainty"
+      ],
+      "populations": [
+        "Adults for current MindLab adaptation; source coverage varies"
+      ],
+      "languages": [
+        "English reference; other languages not assessed"
+      ],
+      "settings": [
+        "Educational rehearsal; local scope must be supplied"
+      ],
+      "permissions": {
+        "code": {
+          "status": "unresolved; no import authorized",
+          "evidence": "Reference official copy; no blanket republication permission inferred."
+        },
+        "publication": {
+          "status": "unresolved; no import authorized",
+          "evidence": "Reference official copy; no blanket republication permission inferred."
+        },
+        "dataset": {
+          "status": "unresolved; no import authorized",
+          "evidence": "Reference official copy; no blanket republication permission inferred."
+        },
+        "case_materials": {
+          "status": "unresolved; no import authorized",
+          "evidence": "Reference official copy; no blanket republication permission inferred."
+        }
+      },
+      "availability": {
+        "checked_on": "2026-10-04",
+        "method": "Primary page opened in this implementation review"
+      },
+      "review_status": "Technical source triage only; professional and cultural review pending",
+      "imported_material": "Bibliographic metadata only; no dataset, code, tools or cases imported",
+      "used_by": [
+        "measurement-lab",
+        "score-understanding"
+      ]
+    },
+    {
+      "id": "aspe",
+      "title": "ASPE Standards of Best Practice",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5806371/",
+      "type": "professional standards paper",
+      "checked_on": "2026-10-04",
+      "review_depth": "Article reviewed for standards domains",
+      "contribution": "Safe simulation processes and structured case development.",
+      "limitations": "Designed for human simulated participants; AI adaptation is a proposal.",
+      "reuse_status": "Inspect publication terms for any reproduction.",
+      "source_type": "research paper",
+      "author_or_organization": "Karen L. Lewis et al. / ASPE",
+      "publication_date": "2017-06-27",
+      "version": "Unspecified",
+      "skills": [
+        "case-review"
+      ],
+      "populations": [
+        "Adults for current MindLab adaptation; source coverage varies"
+      ],
+      "languages": [
+        "English reference; other languages not assessed"
+      ],
+      "settings": [
+        "Educational rehearsal; local scope must be supplied"
+      ],
+      "permissions": {
+        "code": {
+          "status": "unresolved; no import authorized",
+          "evidence": "Inspect publication terms for any reproduction."
+        },
+        "publication": {
+          "status": "CC BY 4.0; attribution required; reference only here",
+          "evidence": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5806371/"
+        },
+        "dataset": {
+          "status": "unresolved; no import authorized",
+          "evidence": "Inspect publication terms for any reproduction."
+        },
+        "case_materials": {
+          "status": "unresolved; no import authorized",
+          "evidence": "Inspect publication terms for any reproduction."
+        }
+      },
+      "availability": {
+        "checked_on": "2026-10-04",
+        "method": "Primary page opened in this implementation review"
+      },
+      "review_status": "Technical source triage only; professional and cultural review pending",
+      "imported_material": "Bibliographic metadata only; no dataset, code, tools or cases imported",
+      "used_by": [
+        "case-schema",
+        "assessment-preparation",
+        "everyday-change",
+        "score-understanding"
+      ]
+    },
+    {
+      "id": "aspih",
+      "title": "ASPiH Standards 2023",
+      "url": "https://aspih.org.uk/wp-content/uploads/2023/11/ASPiH-Standards-2023-CDN-Final.pdf",
+      "type": "professional standards",
+      "checked_on": "2026-10-04",
+      "review_depth": "Official PDF discovered; full review pending",
+      "contribution": "Additional simulation programme quality reference.",
+      "limitations": "Discovery lead only; no detailed claims based on unread sections.",
+      "reuse_status": "Terms not verified.",
+      "source_type": "professional guidance",
+      "author_or_organization": "Not yet catalogued; see primary source",
+      "publication_date": null,
+      "version": "Unspecified",
+      "skills": [
+        "research-reference"
+      ],
+      "populations": [
+        "Adults for current MindLab adaptation; source coverage varies"
+      ],
+      "languages": [
+        "English reference; other languages not assessed"
+      ],
+      "settings": [
+        "Educational rehearsal; local scope must be supplied"
+      ],
+      "permissions": {
+        "code": {
+          "status": "unresolved; no import authorized",
+          "evidence": "Terms not verified."
+        },
+        "publication": {
+          "status": "unresolved; no import authorized",
+          "evidence": "Terms not verified."
+        },
+        "dataset": {
+          "status": "unresolved; no import authorized",
+          "evidence": "Terms not verified."
+        },
+        "case_materials": {
+          "status": "unresolved; no import authorized",
+          "evidence": "Terms not verified."
+        }
+      },
+      "availability": {
+        "checked_on": "2026-10-04",
+        "method": "Prior research package audit; not rechecked in implementation"
+      },
+      "review_status": "Technical source triage only; professional and cultural review pending",
+      "imported_material": "Bibliographic metadata only; no dataset, code, tools or cases imported",
+      "used_by": [
+        "research-reference-only"
+      ]
+    },
+    {
+      "id": "miti",
+      "title": "Motivational Interviewing Treatment Integrity resource",
+      "url": "https://motivationalinterviewing.org/miti-42",
+      "type": "assessment resource",
+      "checked_on": "2026-10-04",
+      "review_depth": "Official resource page reviewed",
+      "contribution": "MI-specific behavioral evaluation reference.",
+      "limitations": "Not a generic empathy scale or universal psychology competence standard.",
+      "reuse_status": "Page specifies noncommercial/share-alike conditions; confirm exact instrument version.",
+      "source_type": "professional guidance",
+      "author_or_organization": "Not yet catalogued; see primary source",
+      "publication_date": null,
+      "version": "Unspecified",
+      "skills": [
+        "research-reference"
+      ],
+      "populations": [
+        "Adults for current MindLab adaptation; source coverage varies"
+      ],
+      "languages": [
+        "English reference; other languages not assessed"
+      ],
+      "settings": [
+        "Educational rehearsal; local scope must be supplied"
+      ],
+      "permissions": {
+        "code": {
+          "status": "unresolved; no import authorized",
+          "evidence": "Page specifies noncommercial/share-alike conditions; confirm exact instrument version."
+        },
+        "publication": {
+          "status": "unresolved; no import authorized",
+          "evidence": "Page specifies noncommercial/share-alike conditions; confirm exact instrument version."
+        },
+        "dataset": {
+          "status": "unresolved; no import authorized",
+          "evidence": "Page specifies noncommercial/share-alike conditions; confirm exact instrument version."
+        },
+        "case_materials": {
+          "status": "unresolved; no import authorized",
+          "evidence": "Page specifies noncommercial/share-alike conditions; confirm exact instrument version."
+        }
+      },
+      "availability": {
+        "checked_on": "2026-10-04",
+        "method": "Prior research package audit; not rechecked in implementation"
+      },
+      "review_status": "Technical source triage only; professional and cultural review pending",
+      "imported_material": "Bibliographic metadata only; no dataset, code, tools or cases imported",
+      "used_by": [
+        "research-reference-only"
+      ]
+    },
+    {
+      "id": "pearls",
+      "title": "PEARLS debriefing tool",
+      "url": "https://debrief2learn.org/pearls-debriefing-tool/",
+      "type": "educational resource",
+      "checked_on": "2026-10-04",
+      "review_depth": "Author resource page reviewed",
+      "contribution": "Structured debriefing reference.",
+      "limitations": "Permission for personal use is not blanket commercial redistribution.",
+      "reuse_status": "Copyright and reuse review needed before embedding tool.",
+      "source_type": "professional guidance",
+      "author_or_organization": "Not yet catalogued; see primary source",
+      "publication_date": null,
+      "version": "Unspecified",
+      "skills": [
+        "research-reference"
+      ],
+      "populations": [
+        "Adults for current MindLab adaptation; source coverage varies"
+      ],
+      "languages": [
+        "English reference; other languages not assessed"
+      ],
+      "settings": [
+        "Educational rehearsal; local scope must be supplied"
+      ],
+      "permissions": {
+        "code": {
+          "status": "unresolved; no import authorized",
+          "evidence": "Copyright and reuse review needed before embedding tool."
+        },
+        "publication": {
+          "status": "unresolved; no import authorized",
+          "evidence": "Copyright and reuse review needed before embedding tool."
+        },
+        "dataset": {
+          "status": "unresolved; no import authorized",
+          "evidence": "Copyright and reuse review needed before embedding tool."
+        },
+        "case_materials": {
+          "status": "unresolved; no import authorized",
+          "evidence": "Copyright and reuse review needed before embedding tool."
+        }
+      },
+      "availability": {
+        "checked_on": "2026-10-04",
+        "method": "Prior research package audit; not rechecked in implementation"
+      },
+      "review_status": "Technical source triage only; professional and cultural review pending",
+      "imported_material": "Bibliographic metadata only; no dataset, code, tools or cases imported",
+      "used_by": [
+        "research-reference-only"
+      ]
+    },
+    {
+      "id": "dash",
+      "title": "Debriefing Assessment for Simulation in Healthcare",
+      "url": "https://harvardmedsim.org/debriefing-assessment-for-simulation-in-healthcare-dash/",
+      "type": "assessment resource",
+      "checked_on": "2026-10-04",
+      "review_depth": "Official page reviewed",
+      "contribution": "Assess debriefing quality.",
+      "limitations": "Does not assess psychotherapy competence; requested download form not submitted.",
+      "reuse_status": "Copyrighted tool; review conditions for programme use and reporting.",
+      "source_type": "professional guidance",
+      "author_or_organization": "Not yet catalogued; see primary source",
+      "publication_date": null,
+      "version": "Unspecified",
+      "skills": [
+        "research-reference"
+      ],
+      "populations": [
+        "Adults for current MindLab adaptation; source coverage varies"
+      ],
+      "languages": [
+        "English reference; other languages not assessed"
+      ],
+      "settings": [
+        "Educational rehearsal; local scope must be supplied"
+      ],
+      "permissions": {
+        "code": {
+          "status": "unresolved; no import authorized",
+          "evidence": "Copyrighted tool; review conditions for programme use and reporting."
+        },
+        "publication": {
+          "status": "unresolved; no import authorized",
+          "evidence": "Copyrighted tool; review conditions for programme use and reporting."
+        },
+        "dataset": {
+          "status": "unresolved; no import authorized",
+          "evidence": "Copyrighted tool; review conditions for programme use and reporting."
+        },
+        "case_materials": {
+          "status": "unresolved; no import authorized",
+          "evidence": "Copyrighted tool; review conditions for programme use and reporting."
+        }
+      },
+      "availability": {
+        "checked_on": "2026-10-04",
+        "method": "Prior research package audit; not rechecked in implementation"
+      },
+      "review_status": "Technical source triage only; professional and cultural review pending",
+      "imported_material": "Bibliographic metadata only; no dataset, code, tools or cases imported",
+      "used_by": [
+        "research-reference-only"
+      ]
+    },
+    {
+      "id": "ipip",
+      "title": "IPIP permission statement",
+      "url": "https://ipip.ori.org/newPermission.htm",
+      "type": "item-bank permission",
+      "checked_on": "2026-10-04",
+      "review_depth": "Official permission page reviewed",
+      "contribution": "Items and scales declared public domain, including commercial use.",
+      "limitations": "Does not establish validity for new norms, translations, or diagnosis.",
+      "reuse_status": "Public domain as stated by owner; maintain scholarly provenance.",
+      "source_type": "dataset",
+      "author_or_organization": "IPIP / Lewis R. Goldberg",
+      "publication_date": null,
+      "version": "Unspecified",
+      "skills": [
+        "measurement"
+      ],
+      "populations": [
+        "Adults for current MindLab adaptation; source coverage varies"
+      ],
+      "languages": [
+        "English reference; other languages not assessed"
+      ],
+      "settings": [
+        "Educational rehearsal; local scope must be supplied"
+      ],
+      "permissions": {
+        "code": {
+          "status": "unresolved; no import authorized",
+          "evidence": "Public domain as stated by owner; maintain scholarly provenance."
+        },
+        "publication": {
+          "status": "unresolved; no import authorized",
+          "evidence": "Public domain as stated by owner; maintain scholarly provenance."
+        },
+        "dataset": {
+          "status": "public domain per owner; no items imported",
+          "evidence": "https://ipip.ori.org/newPermission.htm"
+        },
+        "case_materials": {
+          "status": "unresolved; no import authorized",
+          "evidence": "Public domain as stated by owner; maintain scholarly provenance."
+        }
+      },
+      "availability": {
+        "checked_on": "2026-10-04",
+        "method": "Primary page opened in this implementation review"
+      },
+      "review_status": "Technical source triage only; professional and cultural review pending",
+      "imported_material": "Bibliographic metadata only; no dataset, code, tools or cases imported",
+      "used_by": [
+        "research-reference-only"
+      ]
+    },
+    {
+      "id": "patient-psi-paper",
+      "title": "PATIENT-psi",
+      "url": "https://aclanthology.org/2024.emnlp-main.711/",
+      "type": "peer-reviewed paper",
+      "checked_on": "2026-10-04",
+      "review_depth": "ACL abstract and study description reviewed",
+      "contribution": "Patient models and conversational styles for mental-health professional training.",
+      "limitations": "Small trainee/expert evaluation is not proof of real-world clinical improvement.",
+      "reuse_status": "Publication, code and dataset permissions are separate.",
+      "source_type": "research paper",
+      "author_or_organization": "Ruiyi Wang et al.",
+      "publication_date": "2024-11",
+      "version": "Unspecified",
+      "skills": [
+        "client-controller"
+      ],
+      "populations": [
+        "Adults for current MindLab adaptation; source coverage varies"
+      ],
+      "languages": [
+        "English reference; other languages not assessed"
+      ],
+      "settings": [
+        "Educational rehearsal; local scope must be supplied"
+      ],
+      "permissions": {
+        "code": {
+          "status": "unresolved; no import authorized",
+          "evidence": "Publication, code and dataset permissions are separate."
+        },
+        "publication": {
+          "status": "unresolved; no import authorized",
+          "evidence": "Publication, code and dataset permissions are separate."
+        },
+        "dataset": {
+          "status": "unresolved; no import authorized",
+          "evidence": "Publication, code and dataset permissions are separate."
+        },
+        "case_materials": {
+          "status": "unresolved; no import authorized",
+          "evidence": "Publication, code and dataset permissions are separate."
+        }
+      },
+      "availability": {
+        "checked_on": "2026-10-04",
+        "method": "Primary ACL publication metadata page opened during implementation; publication and dataset licenses remain separate"
+      },
+      "review_status": "Technical source triage only; professional and cultural review pending",
+      "imported_material": "Bibliographic metadata only; no dataset, code, tools or cases imported",
+      "used_by": [
+        "controller-design"
+      ]
+    },
+    {
+      "id": "consistent-mi-paper",
+      "title": "Consistent Client Simulation for Motivational Interviewing-based Counseling",
+      "url": "https://aclanthology.org/2025.acl-long.1021/",
+      "type": "peer-reviewed paper",
+      "checked_on": "2026-10-04",
+      "review_depth": "ACL abstract and related repository reviewed",
+      "contribution": "State-controlled client consistency.",
+      "limitations": "Model states are assumptions, not observed human mental states.",
+      "reuse_status": "Code/data reuse unresolved in repository.",
+      "source_type": "research paper",
+      "author_or_organization": "Yizhe Yang et al.",
+      "publication_date": "2025-07",
+      "version": "Unspecified",
+      "skills": [
+        "client-controller"
+      ],
+      "populations": [
+        "Adults for current MindLab adaptation; source coverage varies"
+      ],
+      "languages": [
+        "English reference; other languages not assessed"
+      ],
+      "settings": [
+        "Educational rehearsal; local scope must be supplied"
+      ],
+      "permissions": {
+        "code": {
+          "status": "unresolved; no import authorized",
+          "evidence": "Code/data reuse unresolved in repository."
+        },
+        "publication": {
+          "status": "unresolved; no import authorized",
+          "evidence": "Code/data reuse unresolved in repository."
+        },
+        "dataset": {
+          "status": "unresolved; no import authorized",
+          "evidence": "Code/data reuse unresolved in repository."
+        },
+        "case_materials": {
+          "status": "unresolved; no import authorized",
+          "evidence": "Code/data reuse unresolved in repository."
+        }
+      },
+      "availability": {
+        "checked_on": "2026-10-04",
+        "method": "Primary ACL publication metadata page opened during implementation; publication and dataset licenses remain separate"
+      },
+      "review_status": "Technical source triage only; professional and cultural review pending",
+      "imported_material": "Bibliographic metadata only; no dataset, code, tools or cases imported",
+      "used_by": [
+        "controller-design",
+        "everyday-change"
+      ]
+    },
+    {
+      "id": "psyclient-paper",
+      "title": "PsyCLIENT",
+      "url": "https://arxiv.org/abs/2601.07312",
+      "type": "research paper",
+      "checked_on": "2026-10-04",
+      "review_depth": "Abstract and HTML research description reviewed",
+      "contribution": "Conversational trajectory modelling; professional evaluation reported.",
+      "limitations": "Author reports EMNLP 2026 acceptance; repository not a released implementation at audit.",
+      "reuse_status": "Paper CC BY-NC-SA signal is separate from CC0 repository; data rights not verified.",
+      "source_type": "research paper",
+      "author_or_organization": "Not yet catalogued; see primary source",
+      "publication_date": null,
+      "version": "Unspecified",
+      "skills": [
+        "research-reference"
+      ],
+      "populations": [
+        "Adults for current MindLab adaptation; source coverage varies"
+      ],
+      "languages": [
+        "English reference; other languages not assessed"
+      ],
+      "settings": [
+        "Educational rehearsal; local scope must be supplied"
+      ],
+      "permissions": {
+        "code": {
+          "status": "unresolved; no import authorized",
+          "evidence": "Paper CC BY-NC-SA signal is separate from CC0 repository; data rights not verified."
+        },
+        "publication": {
+          "status": "unresolved; no import authorized",
+          "evidence": "Paper CC BY-NC-SA signal is separate from CC0 repository; data rights not verified."
+        },
+        "dataset": {
+          "status": "unresolved; no import authorized",
+          "evidence": "Paper CC BY-NC-SA signal is separate from CC0 repository; data rights not verified."
+        },
+        "case_materials": {
+          "status": "unresolved; no import authorized",
+          "evidence": "Paper CC BY-NC-SA signal is separate from CC0 repository; data rights not verified."
+        }
+      },
+      "availability": {
+        "checked_on": "2026-10-04",
+        "method": "Prior research package audit; not rechecked in implementation"
+      },
+      "review_status": "Technical source triage only; professional and cultural review pending",
+      "imported_material": "Bibliographic metadata only; no dataset, code, tools or cases imported",
+      "used_by": [
+        "research-reference-only"
+      ]
+    },
+    {
+      "id": "avp-paper",
+      "title": "The Empirically Grounded Adaptive Virtual Patient",
+      "url": "https://arxiv.org/abs/2606.10051",
+      "type": "preprint",
+      "checked_on": "2026-10-04",
+      "review_depth": "Abstract reviewed",
+      "contribution": "Adaptive disclosure dynamics and evaluation with 20 clinicians/trainees.",
+      "limitations": "Author-reported results; fitted model does not prove human causal dynamics; no data access verified.",
+      "reuse_status": "Underlying transcript permissions unknown.",
+      "source_type": "research paper",
+      "author_or_organization": "Not yet catalogued; see primary source",
+      "publication_date": null,
+      "version": "Unspecified",
+      "skills": [
+        "research-reference"
+      ],
+      "populations": [
+        "Adults for current MindLab adaptation; source coverage varies"
+      ],
+      "languages": [
+        "English reference; other languages not assessed"
+      ],
+      "settings": [
+        "Educational rehearsal; local scope must be supplied"
+      ],
+      "permissions": {
+        "code": {
+          "status": "unresolved; no import authorized",
+          "evidence": "Underlying transcript permissions unknown."
+        },
+        "publication": {
+          "status": "unresolved; no import authorized",
+          "evidence": "Underlying transcript permissions unknown."
+        },
+        "dataset": {
+          "status": "unresolved; no import authorized",
+          "evidence": "Underlying transcript permissions unknown."
+        },
+        "case_materials": {
+          "status": "unresolved; no import authorized",
+          "evidence": "Underlying transcript permissions unknown."
+        }
+      },
+      "availability": {
+        "checked_on": "2026-10-04",
+        "method": "Prior research package audit; not rechecked in implementation"
+      },
+      "review_status": "Technical source triage only; professional and cultural review pending",
+      "imported_material": "Bibliographic metadata only; no dataset, code, tools or cases imported",
+      "used_by": [
+        "research-reference-only"
+      ]
+    },
+    {
+      "id": "population-fidelity",
+      "title": "Plausible Patients, Impossible Populations",
+      "url": "https://arxiv.org/abs/2604.17359v2",
+      "type": "preprint",
+      "checked_on": "2026-10-04",
+      "review_depth": "Revised abstract and version history reviewed",
+      "contribution": "Separates case plausibility from population fidelity in a specific model evaluation.",
+      "limitations": "Use v2; earlier claims were withdrawn; do not generalize beyond tested setup.",
+      "reuse_status": "Use as methodological reference, not a clinical norm dataset.",
+      "source_type": "research paper",
+      "author_or_organization": "Not yet catalogued; see primary source",
+      "publication_date": null,
+      "version": "Unspecified",
+      "skills": [
+        "research-reference"
+      ],
+      "populations": [
+        "Adults for current MindLab adaptation; source coverage varies"
+      ],
+      "languages": [
+        "English reference; other languages not assessed"
+      ],
+      "settings": [
+        "Educational rehearsal; local scope must be supplied"
+      ],
+      "permissions": {
+        "code": {
+          "status": "unresolved; no import authorized",
+          "evidence": "Use as methodological reference, not a clinical norm dataset."
+        },
+        "publication": {
+          "status": "unresolved; no import authorized",
+          "evidence": "Use as methodological reference, not a clinical norm dataset."
+        },
+        "dataset": {
+          "status": "unresolved; no import authorized",
+          "evidence": "Use as methodological reference, not a clinical norm dataset."
+        },
+        "case_materials": {
+          "status": "unresolved; no import authorized",
+          "evidence": "Use as methodological reference, not a clinical norm dataset."
+        }
+      },
+      "availability": {
+        "checked_on": "2026-10-04",
+        "method": "Prior research package audit; not rechecked in implementation"
+      },
+      "review_status": "Technical source triage only; professional and cultural review pending",
+      "imported_material": "Bibliographic metadata only; no dataset, code, tools or cases imported",
+      "used_by": [
+        "research-reference-only"
+      ]
+    },
+    {
+      "id": "counselbench-eval",
+      "title": "CounselBench Eval dataset card",
+      "url": "https://huggingface.co/datasets/izi-ano/CounselBench-Eval",
+      "type": "dataset card",
+      "checked_on": "2026-10-04",
+      "review_depth": "Card license and example structure reviewed",
+      "contribution": "Professional ratings useful for judge-evaluation research design.",
+      "limitations": "Multiple ratings are not independent client encounters; dataset is not a complete client simulator.",
+      "reuse_status": "CC BY-NC-ND 4.0 on this card; do not assume adaptation or commercial permission.",
+      "source_type": "dataset",
+      "author_or_organization": "izi-ano dataset maintainers",
+      "publication_date": null,
+      "version": "Unspecified",
+      "skills": [
+        "evaluation"
+      ],
+      "populations": [
+        "Adults for current MindLab adaptation; source coverage varies"
+      ],
+      "languages": [
+        "English reference; other languages not assessed"
+      ],
+      "settings": [
+        "Educational rehearsal; local scope must be supplied"
+      ],
+      "permissions": {
+        "code": {
+          "status": "unresolved; no import authorized",
+          "evidence": "CC BY-NC-ND 4.0 on this card; do not assume adaptation or commercial permission."
+        },
+        "publication": {
+          "status": "unresolved; no import authorized",
+          "evidence": "CC BY-NC-ND 4.0 on this card; do not assume adaptation or commercial permission."
+        },
+        "dataset": {
+          "status": "CC BY-NC-ND 4.0; intended reuse not cleared",
+          "evidence": "https://huggingface.co/datasets/izi-ano/CounselBench-Eval"
+        },
+        "case_materials": {
+          "status": "unresolved; no import authorized",
+          "evidence": "CC BY-NC-ND 4.0 on this card; do not assume adaptation or commercial permission."
+        }
+      },
+      "availability": {
+        "checked_on": "2026-10-04",
+        "method": "Primary page opened in this implementation review"
+      },
+      "review_status": "Technical source triage only; professional and cultural review pending",
+      "imported_material": "Bibliographic metadata only; no dataset, code, tools or cases imported",
+      "used_by": [
+        "research-reference-only"
+      ]
+    },
+    {
+      "id": "cbt-paper",
+      "title": "CBT-Bench",
+      "url": "https://aclanthology.org/2025.naacl-long.196/",
+      "type": "peer-reviewed paper",
+      "checked_on": "2026-10-04",
+      "review_depth": "Paper page and repository reviewed",
+      "contribution": "Distinguishes knowledge, formulation and response tasks.",
+      "limitations": "Benchmark success does not establish clinical training outcomes; dataset license unresolved.",
+      "reuse_status": "Reference paper; verify dataset terms separately.",
+      "source_type": "research paper",
+      "author_or_organization": "Mian Zhang et al.",
+      "publication_date": "2025-04",
+      "version": "Unspecified",
+      "skills": [
+        "evaluation"
+      ],
+      "populations": [
+        "Adults for current MindLab adaptation; source coverage varies"
+      ],
+      "languages": [
+        "English reference; other languages not assessed"
+      ],
+      "settings": [
+        "Educational rehearsal; local scope must be supplied"
+      ],
+      "permissions": {
+        "code": {
+          "status": "unresolved; no import authorized",
+          "evidence": "Reference paper; verify dataset terms separately."
+        },
+        "publication": {
+          "status": "unresolved; no import authorized",
+          "evidence": "Reference paper; verify dataset terms separately."
+        },
+        "dataset": {
+          "status": "unresolved; no import authorized",
+          "evidence": "Reference paper; verify dataset terms separately."
+        },
+        "case_materials": {
+          "status": "unresolved; no import authorized",
+          "evidence": "Reference paper; verify dataset terms separately."
+        }
+      },
+      "availability": {
+        "checked_on": "2026-10-04",
+        "method": "Primary ACL publication metadata page opened during implementation; publication and dataset licenses remain separate"
+      },
+      "review_status": "Technical source triage only; professional and cultural review pending",
+      "imported_material": "Bibliographic metadata only; no dataset, code, tools or cases imported",
+      "used_by": [
+        "research-reference-only"
+      ]
+    },
+    {
+      "id": "care-paper",
+      "title": "CARE-Bench counseling benchmark",
+      "url": "https://arxiv.org/abs/2511.09407",
+      "type": "research paper",
+      "checked_on": "2026-10-04",
+      "review_depth": "Abstract/repository discovery",
+      "contribution": "Counseling simulation and evaluation lead.",
+      "limitations": "Not a runtime audit or replicated benchmark.",
+      "reuse_status": "Repository licensing unresolved.",
+      "source_type": "research paper",
+      "author_or_organization": "Not yet catalogued; see primary source",
+      "publication_date": null,
+      "version": "Unspecified",
+      "skills": [
+        "research-reference"
+      ],
+      "populations": [
+        "Adults for current MindLab adaptation; source coverage varies"
+      ],
+      "languages": [
+        "English reference; other languages not assessed"
+      ],
+      "settings": [
+        "Educational rehearsal; local scope must be supplied"
+      ],
+      "permissions": {
+        "code": {
+          "status": "unresolved; no import authorized",
+          "evidence": "Repository licensing unresolved."
+        },
+        "publication": {
+          "status": "unresolved; no import authorized",
+          "evidence": "Repository licensing unresolved."
+        },
+        "dataset": {
+          "status": "unresolved; no import authorized",
+          "evidence": "Repository licensing unresolved."
+        },
+        "case_materials": {
+          "status": "unresolved; no import authorized",
+          "evidence": "Repository licensing unresolved."
+        }
+      },
+      "availability": {
+        "checked_on": "2026-10-04",
+        "method": "Prior research package audit; not rechecked in implementation"
+      },
+      "review_status": "Technical source triage only; professional and cultural review pending",
+      "imported_material": "Bibliographic metadata only; no dataset, code, tools or cases imported",
+      "used_by": [
+        "research-reference-only"
+      ]
+    },
+    {
+      "id": "apa-assessment",
+      "title": "APA Guidelines for Psychological Assessment and Evaluation",
+      "url": "https://www.apa.org/about/policy/guidelines-psychological-assessment-evaluation.pdf",
+      "type": "professional guidance",
+      "checked_on": "2026-10-04",
+      "review_depth": "Discovered; full text inaccessible in tool",
+      "contribution": "Supplementary US professional guidance for future review.",
+      "limitations": "Not used to establish specific requirements; not international law.",
+      "reuse_status": "Terms and full text not verified.",
+      "source_type": "professional guidance",
+      "author_or_organization": "Not yet catalogued; see primary source",
+      "publication_date": null,
+      "version": "Unspecified",
+      "skills": [
+        "research-reference"
+      ],
+      "populations": [
+        "Adults for current MindLab adaptation; source coverage varies"
+      ],
+      "languages": [
+        "English reference; other languages not assessed"
+      ],
+      "settings": [
+        "Educational rehearsal; local scope must be supplied"
+      ],
+      "permissions": {
+        "code": {
+          "status": "unresolved; no import authorized",
+          "evidence": "Terms and full text not verified."
+        },
+        "publication": {
+          "status": "unresolved; no import authorized",
+          "evidence": "Terms and full text not verified."
+        },
+        "dataset": {
+          "status": "unresolved; no import authorized",
+          "evidence": "Terms and full text not verified."
+        },
+        "case_materials": {
+          "status": "unresolved; no import authorized",
+          "evidence": "Terms and full text not verified."
+        }
+      },
+      "availability": {
+        "checked_on": "2026-10-04",
+        "method": "Prior research package audit; not rechecked in implementation"
+      },
+      "review_status": "Technical source triage only; professional and cultural review pending",
+      "imported_material": "Bibliographic metadata only; no dataset, code, tools or cases imported",
+      "used_by": [
+        "research-reference-only"
+      ]
+    },
+    {
+      "id": "original-assessment-preparation",
+      "title": "Before the assessment",
+      "author_or_organization": "MindLab project original fiction (AI-assisted authorship)",
+      "url": "/api/practice/scenarios",
+      "publication_date": "2026-10-04",
+      "version": "2.0.0",
+      "source_type": "original case",
+      "skills": [
+        "explain",
+        "invite",
+        "uncertainty",
+        "neutral",
+        "observe"
+      ],
+      "populations": [
+        "Fictional adults"
+      ],
+      "languages": [
+        "English only; unreviewed"
+      ],
+      "settings": [
+        "Generic educational preparation meeting; no jurisdiction-specific procedures"
+      ],
+      "limitations": "Not a real client, licensed test, professionally reviewed case, or validated educational instrument.",
+      "review_status": "Authored educational prototype. Professional review has not occurred.",
+      "permissions": {
+        "code": {
+          "status": "not applicable to this case record",
+          "evidence": "backend/workbench/scenarios/assessment-preparation.v2.json"
+        },
+        "publication": {
+          "status": "not applicable to this case record",
+          "evidence": "backend/workbench/scenarios/assessment-preparation.v2.json"
+        },
+        "dataset": {
+          "status": "not applicable to this case record",
+          "evidence": "backend/workbench/scenarios/assessment-preparation.v2.json"
+        },
+        "case_materials": {
+          "status": "Original project content; no third-party case material imported",
+          "evidence": "backend/workbench/scenarios/assessment-preparation.v2.json"
+        }
+      },
+      "availability": {
+        "checked_on": "2026-10-04",
+        "method": "Local case file validated with OriginalCase schema"
+      },
+      "imported_material": "None; original content",
+      "used_by": [
+        "encounter",
+        "debrief",
+        "replay",
+        "conversation-evaluation"
+      ],
+      "provenance": {
+        "origin": "Original MindLab fiction; no real client or imported case",
+        "source_ids": [
+          "itc-use",
+          "who-manual",
+          "aspe"
+        ],
+        "review_status": "Unreviewed; professional, cultural and language review pending"
+      }
+    },
+    {
+      "id": "original-everyday-change",
+      "title": "Two reasons pulling in different directions",
+      "author_or_organization": "MindLab project original fiction (AI-assisted authorship)",
+      "url": "/api/practice/scenarios",
+      "publication_date": "2026-10-04",
+      "version": "2.0.0",
+      "source_type": "original case",
+      "skills": [
+        "explain",
+        "invite",
+        "uncertainty",
+        "neutral",
+        "observe"
+      ],
+      "populations": [
+        "Fictional adults"
+      ],
+      "languages": [
+        "English only; unreviewed"
+      ],
+      "settings": [
+        "Generic educational preparation meeting; no jurisdiction-specific procedures"
+      ],
+      "limitations": "Not a real client, licensed test, professionally reviewed case, or validated educational instrument.",
+      "review_status": "Authored educational prototype. Professional review has not occurred.",
+      "permissions": {
+        "code": {
+          "status": "not applicable to this case record",
+          "evidence": "backend/workbench/scenarios/everyday-change.v2.json"
+        },
+        "publication": {
+          "status": "not applicable to this case record",
+          "evidence": "backend/workbench/scenarios/everyday-change.v2.json"
+        },
+        "dataset": {
+          "status": "not applicable to this case record",
+          "evidence": "backend/workbench/scenarios/everyday-change.v2.json"
+        },
+        "case_materials": {
+          "status": "Original project content; no third-party case material imported",
+          "evidence": "backend/workbench/scenarios/everyday-change.v2.json"
+        }
+      },
+      "availability": {
+        "checked_on": "2026-10-04",
+        "method": "Local case file validated with OriginalCase schema"
+      },
+      "imported_material": "None; original content",
+      "used_by": [
+        "encounter",
+        "debrief",
+        "replay",
+        "conversation-evaluation"
+      ],
+      "provenance": {
+        "origin": "Original MindLab fiction; no real client or imported case",
+        "source_ids": [
+          "who-manual",
+          "consistent-mi-paper",
+          "aspe"
+        ],
+        "review_status": "Unreviewed; professional, cultural and language review pending"
+      }
+    },
+    {
+      "id": "original-score-understanding",
+      "title": "A number with unanswered questions",
+      "author_or_organization": "MindLab project original fiction (AI-assisted authorship)",
+      "url": "/api/practice/scenarios",
+      "publication_date": "2026-10-04",
+      "version": "2.0.0",
+      "source_type": "original case",
+      "skills": [
+        "explain",
+        "invite",
+        "uncertainty",
+        "neutral",
+        "observe"
+      ],
+      "populations": [
+        "Fictional adults"
+      ],
+      "languages": [
+        "English only; unreviewed"
+      ],
+      "settings": [
+        "Generic educational preparation meeting; no jurisdiction-specific procedures"
+      ],
+      "limitations": "Not a real client, licensed test, professionally reviewed case, or validated educational instrument.",
+      "review_status": "Authored educational prototype. Professional review has not occurred.",
+      "permissions": {
+        "code": {
+          "status": "not applicable to this case record",
+          "evidence": "backend/workbench/scenarios/score-understanding.v2.json"
+        },
+        "publication": {
+          "status": "not applicable to this case record",
+          "evidence": "backend/workbench/scenarios/score-understanding.v2.json"
+        },
+        "dataset": {
+          "status": "not applicable to this case record",
+          "evidence": "backend/workbench/scenarios/score-understanding.v2.json"
+        },
+        "case_materials": {
+          "status": "Original project content; no third-party case material imported",
+          "evidence": "backend/workbench/scenarios/score-understanding.v2.json"
+        }
+      },
+      "availability": {
+        "checked_on": "2026-10-04",
+        "method": "Local case file validated with OriginalCase schema"
+      },
+      "imported_material": "None; original content",
+      "used_by": [
+        "encounter",
+        "debrief",
+        "replay",
+        "conversation-evaluation"
+      ],
+      "provenance": {
+        "origin": "Original MindLab fiction; no real client or imported case",
+        "source_ids": [
+          "itc-use",
+          "testing-standards",
+          "aspe"
+        ],
+        "review_status": "Unreviewed; professional, cultural and language review pending"
+      }
+    }
+  ]
+}

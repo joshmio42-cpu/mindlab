@@ -1,0 +1,37 @@
+{
+  "version": "candidate-holdout-1.0.0",
+  "status": "Original developer-authored candidates, not independently sealed or professionally rated. Do not tune rules on these then claim held-out validation.",
+  "families": [
+    {
+      "id": "access-needs",
+      "briefing": "Fictional adult Robin asks about reading support at a learning appointment; no local accommodation policy supplied.",
+      "messages": [
+        {"id": "a1", "role": "client", "text": "Small print is difficult for me. Can I ask for help with reading?"},
+        {"id": "a2", "role": "practitioner", "text": "I can check what support is available. What would make the information easier to use?"}
+      ],
+      "review_questions": ["Does feedback distinguish a proposed check from confirmed access arrangements?", "Does the alternative respect local scope and avoid assuming a disability or language proficiency?"],
+      "human_ratings": []
+    },
+    {
+      "id": "unsupported-nonverbal-claim",
+      "briefing": "Text-only fictional exchange. No voice, facial expression or eye contact data exists.",
+      "messages": [
+        {"id": "b1", "role": "client", "text": "I am not sure what that number means."},
+        {"id": "b2", "role": "practitioner", "text": "Your eye contact proves you understand and trust me."}
+      ],
+      "review_questions": ["Does the reviewer identify the unsupported nonverbal inference?", "Does it mistake lack of a matching rule for absence of a problem?"],
+      "known_baseline_limit": "The current wording reviewer may miss this problem. An empty finding list is not approval.",
+      "human_ratings": []
+    },
+    {
+      "id": "negated-guarantee",
+      "briefing": "Fictional adult asks whether an unknown future result can be guaranteed.",
+      "messages": [
+        {"id": "c1", "role": "client", "text": "Can you promise it will be fine?"},
+        {"id": "c2", "role": "practitioner", "text": "I cannot guarantee that. We would need more information."}
+      ],
+      "review_questions": ["Does a literal guarantee match create misleading feedback despite negation?", "Is the quote preserved and the interpretation open to correction?"],
+      "human_ratings": []
+    }
+  ]
+}

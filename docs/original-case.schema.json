@@ -1,0 +1,245 @@
+{
+  "$defs": {
+    "Disclosure": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "title": "Id",
+          "type": "string"
+        },
+        "topic": {
+          "title": "Topic",
+          "type": "string"
+        },
+        "fact": {
+          "title": "Fact",
+          "type": "string"
+        },
+        "when": {
+          "title": "When",
+          "type": "string"
+        },
+        "trigger_pattern": {
+          "title": "Trigger Pattern",
+          "type": "string"
+        },
+        "marker": {
+          "title": "Marker",
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "topic",
+        "fact",
+        "when",
+        "trigger_pattern",
+        "marker"
+      ],
+      "title": "Disclosure",
+      "type": "object"
+    },
+    "FictionalClient": {
+      "additionalProperties": false,
+      "properties": {
+        "identity": {
+          "title": "Identity",
+          "type": "string"
+        },
+        "background": {
+          "title": "Background",
+          "type": "string"
+        },
+        "goals": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Goals",
+          "type": "array"
+        },
+        "preferences": {
+          "title": "Preferences",
+          "type": "string"
+        },
+        "concerns": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Concerns",
+          "type": "array"
+        },
+        "context": {
+          "title": "Context",
+          "type": "string"
+        },
+        "initial_understanding": {
+          "title": "Initial Understanding",
+          "type": "string"
+        },
+        "volunteered": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Volunteered",
+          "type": "array"
+        },
+        "strengths": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Strengths",
+          "type": "array"
+        },
+        "stable_facts": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Stable Facts",
+          "type": "array"
+        },
+        "initial_facts": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Initial Facts",
+          "type": "array"
+        },
+        "ambiguities": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Ambiguities",
+          "type": "array"
+        },
+        "disclosures": {
+          "items": {
+            "$ref": "#/$defs/Disclosure"
+          },
+          "title": "Disclosures",
+          "type": "array"
+        },
+        "constraints": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Constraints",
+          "type": "array"
+        },
+        "boundaries": {
+          "title": "Boundaries",
+          "type": "string"
+        }
+      },
+      "required": [
+        "identity",
+        "background",
+        "goals",
+        "preferences",
+        "concerns",
+        "context",
+        "initial_understanding",
+        "volunteered",
+        "strengths",
+        "stable_facts",
+        "initial_facts",
+        "ambiguities",
+        "disclosures",
+        "constraints",
+        "boundaries"
+      ],
+      "title": "FictionalClient",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "title": "Id",
+      "type": "string"
+    },
+    "version": {
+      "title": "Version",
+      "type": "string"
+    },
+    "schema_version": {
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "title": {
+      "title": "Title",
+      "type": "string"
+    },
+    "subtitle": {
+      "title": "Subtitle",
+      "type": "string"
+    },
+    "duration": {
+      "title": "Duration",
+      "type": "string"
+    },
+    "review_status": {
+      "title": "Review Status",
+      "type": "string"
+    },
+    "introduction": {
+      "additionalProperties": {
+        "anyOf": [
+          {
+            "type": "string"
+          },
+          {
+            "type": "integer"
+          }
+        ]
+      },
+      "title": "Introduction",
+      "type": "object"
+    },
+    "objectives": {
+      "items": {
+        "additionalProperties": {
+          "type": "string"
+        },
+        "type": "object"
+      },
+      "minItems": 1,
+      "title": "Objectives",
+      "type": "array"
+    },
+    "provenance": {
+      "additionalProperties": true,
+      "title": "Provenance",
+      "type": "object"
+    },
+    "supported_context": {
+      "additionalProperties": true,
+      "title": "Supported Context",
+      "type": "object"
+    },
+    "variation": {
+      "additionalProperties": true,
+      "title": "Variation",
+      "type": "object"
+    },
+    "client": {
+      "$ref": "#/$defs/FictionalClient"
+    }
+  },
+  "required": [
+    "id",
+    "version",
+    "schema_version",
+    "title",
+    "subtitle",
+    "duration",
+    "review_status",
+    "introduction",
+    "objectives",
+    "provenance",
+    "supported_context",
+    "variation",
+    "client"
+  ],
+  "title": "OriginalCase",
+  "type": "object"
+}

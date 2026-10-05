@@ -1,0 +1,141 @@
+.evidence-lab {
+  max-width: 1280px;
+  margin: auto;
+  padding: 42px 32px;
+  color: #203c39;
+}
+.evidence-lab header {
+  max-width: 850px;
+  margin-bottom: 28px;
+}
+.evidence-lab h1 {
+  font:
+    42px Georgia,
+    serif;
+  margin: 12px 0;
+}
+.evidence-lab p {
+  line-height: 1.65;
+}
+.lab-layout {
+  display: grid;
+  grid-template-columns: minmax(260px, 330px) minmax(0, 1fr);
+  gap: 24px;
+  align-items: start;
+}
+.lab-results {
+  display: grid;
+  gap: 20px;
+  min-width: 0;
+}
+.lab-table {
+  overflow-x: auto;
+}
+.lab-table table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+.lab-table th,
+.lab-table td {
+  padding: 10px 8px;
+  text-align: left;
+  border-bottom: 1px solid #dbe5df;
+}
+.lab-table caption {
+  text-align: left;
+  margin: 12px 0;
+}
+.simulation-flow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 28px;
+  padding: 20px 32px;
+  background: #edf3ed;
+  border-radius: 12px;
+  margin: 24px 0;
+}
+.simulation-flow li {
+  flex: 1;
+  min-width: 125px;
+  padding-left: 3px;
+  line-height: 1.5;
+}
+.reference-notes {
+  margin: 14px 0;
+  padding: 12px;
+  background: #f2f5ef;
+  border-radius: 8px;
+}
+.reference-notes summary,
+.practice-panel > summary {
+  cursor: pointer;
+  line-height: 1.5;
+}
+.practice-field input,
+.practice-field textarea {
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 0;
+  padding: 12px;
+  border: 1px solid #cbd8d2;
+  border-radius: 8px;
+  background: white;
+  color: #203c39;
+  font: inherit;
+}
+.practice-field textarea {
+  min-height: 95px;
+}
+.history-run {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  text-align: left;
+  border: 0;
+  border-bottom: 1px solid #dbe5df;
+  background: white;
+  color: inherit;
+}
+.source-registry {
+  margin-top: 24px;
+}
+.source-registry article {
+  padding: 18px 0;
+  border-bottom: 1px solid #dbe5df;
+  overflow-wrap: anywhere;
+}
+.source-registry dl {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  gap: 8px;
+  font-size: 13px;
+}
+.source-registry dd {
+  margin: 0;
+}
+.case-picker {
+  margin: 20px 0;
+  max-width: 650px;
+}
+.evidence-lab figure {
+  margin: 18px 0;
+}
+@media (max-width: 760px) {
+  .evidence-lab {
+    padding: 26px 16px;
+  }
+  .evidence-lab h1 {
+    font-size: 32px;
+  }
+  .lab-layout {
+    grid-template-columns: 1fr;
+  }
+  .workspace-switch {
+    flex-wrap: wrap;
+    height: auto;
+  }
+  .source-registry dl {
+    grid-template-columns: 1fr;
+  }
+}

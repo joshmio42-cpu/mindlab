@@ -1,0 +1,7 @@
+node_modules
+dist
+src/schema.ts
+package-lock.json
+test-results
+playwright-report
+.cache

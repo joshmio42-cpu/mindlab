@@ -1,0 +1,86 @@
+{
+  "inspected_on": "2026-10-04",
+  "files": [
+    {
+      "path": "prior-project/Mindlab_PsychPlayhround/README.md",
+      "sha256": "f05579f37fd6b66f07e5068c6fce3bc1a2ff4e7d70a57d46eca01b82678b014d"
+    },
+    {
+      "path": "prior-project/Mindlab_PsychPlayhround/docs/ARCHITECTURE.md",
+      "sha256": "0608d09449c745ff4871159d92430827ce9fec607056a60d9ef79ba39e4a579c"
+    },
+    {
+      "path": "prior-project/Mindlab_PsychPlayhround/docs/PROVENANCE.md",
+      "sha256": "e0f61b2a812b374141f69dac19351c9cae54a6b1ffa71997ad397b6e20ebefb5"
+    },
+    {
+      "path": "prior-project/Mindlab_PsychPlayhround/docs/VERIFICATION.md",
+      "sha256": "57282e5bedc0c8606e3ff909e644d0d329bdeaea1668958caac77bb14e54592c"
+    },
+    {
+      "path": "prior-project/Mindlab_PsychPlayhround/pyproject.toml",
+      "sha256": "6d8cc9e4adc70f8b7b81f67a5d7edb7f8933668e6757e87d23dedd0c3c17efaa"
+    },
+    {
+      "path": "prior-project/Mindlab_PsychPlayhround/uv.lock",
+      "sha256": "0b116dc825544db76a80c8b135c3318f1d2ec83202b44a1c7145c2257abe5540"
+    },
+    {
+      "path": "prior-project/Mindlab_PsychPlayhround/frontend/package.json",
+      "sha256": "de93dea99369ad83e6e72af271da547e56a85fec84eec5fbbcf0394f981bcb5f"
+    },
+    {
+      "path": "prior-project/Mindlab_PsychPlayhround/backend/mindlab/procedure.py",
+      "sha256": "d03c0e2b231f6a3bdf31614708c236f781144d28f93d4872c35b0ca5a6e26aa7"
+    },
+    {
+      "path": "prior-project/Mindlab_PsychPlayhround/backend/mindlab/agents.py",
+      "sha256": "3be65ff5df6dd7e1273d53e6a80bde63bc202a5874c46c4e1f5e10c17c1f9b1a"
+    },
+    {
+      "path": "prior-project/Mindlab_PsychPlayhround/backend/tests/test_procedure.py",
+      "sha256": "3457d0817d74d1846c545d548fd3f14d7629b90a1646c782395f0f2d5fa3ae32"
+    },
+    {
+      "path": "prior-project/Mindlab_PsychPlayhround/backend/tests/test_provider.py",
+      "sha256": "03775b08840ebffb3036b8490f9383633ee9bde5d5f0edaa0213cb7674c3f1ea"
+    },
+    {
+      "path": "prior-project/Mindlab_PsychPlayhround/references/shachi/src/shachi/base.py",
+      "sha256": "03471138b1b1ac87e636307c291303f19b8c7c2b2ef8cb2760a31e7dfd0133ee"
+    },
+    {
+      "path": "prior-project/Mindlab_PsychPlayhround/references/shachi/LICENSE",
+      "sha256": "1c1124d7cd9f5090074034b4e97263f81fafdb166640bdab5bd67251252841cd"
+    },
+    {
+      "path": "research-reference/MindLab-foundation-pack/CODEX-PLAN-HANDOFF.txt",
+      "sha256": "9027508286a4b71c0045b54fd599d329d02fea960aea87a224830eb986dadb97"
+    },
+    {
+      "path": "research-reference/MindLab-foundation-pack/PROJECT-CONTEXT.txt",
+      "sha256": "8b2fee68eec089bdc26897904df3ed9a730534ff85a990c46dbe88d6cd6bbff7"
+    },
+    {
+      "path": "research-reference/MindLab-foundation-pack/agent-scout/AGENT-CATALOG.json",
+      "sha256": "6a3072cc0e4b7c0e7c4179fb5f73ad8c48229371a4e86f70c3a7b68393c7f34d"
+    },
+    {
+      "path": "research-reference/MindLab-foundation-pack/agent-scout/COMPATIBILITY-NOTES.txt",
+      "sha256": "31a39438c881ddb8394fb3b4ba70984a037da265a028dc8cb2b91ad6e35fc126"
+    },
+    {
+      "path": "research-reference/MindLab-foundation-pack/agent-scout/AGENT-REPOSITORIES.html",
+      "sha256": "6d53f4145ae20bdfb12af1b9f764b47eadcc3bf571a25458967111e97e80c9bc"
+    },
+    {
+      "path": "research-reference/MindLab-foundation-pack/reuse-review/RESEARCH-REUSE.html",
+      "sha256": "83860a148520b23d3f20c325b028742f99d47b0306f4de854d0f26c8d7cdd3b1"
+    },
+    {
+      "path": "research-reference/MindLab-foundation-pack/FOUNDATIONS.html",
+      "sha256": "d93e72cb282631774ea6d65c3bad73401b74f8e2da48da138efd010bf0838eaa"
+    }
+  ],
+  "path_note": "Portable reference labels replace private machine paths; original content hashes are unchanged."
+}
